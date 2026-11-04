@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[52,)"
+license="MIT"
+
+[[mods]]
+modId="uhcrun"
+version="1.0.0"
+displayName="UHC Run"
+description='''
+Mecanicas de UHC Run: cutclean (minerales y comida ya cocinados), borde que se cierra por etapas,
+PvP con cuenta regresiva, sin regeneracion natural, cabeza dorada, dispersion de jugadores y mas.
+'''
+
+[[dependencies.uhcrun]]
+modId="forge"
+mandatory=true
+versionRange="[52,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.uhcrun]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
